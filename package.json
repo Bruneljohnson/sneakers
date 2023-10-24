@@ -17,7 +17,7 @@
     "start-product-service": "npm run start -w @sneakerz/product-service",
     "start-transaction-service": "npm run start -w @sneakerz/transaction-service",
     "start-live-chat-service": "npm run start -w @sneakerz/live-chat-service",
-    "test": "npm run test -w @sneakerz/user-service",
+    "test": "npm run test",
     "format": "prettier --ignore-path .gitignore --write .",
     "format-staged": "prettier --ignore-path .gitignore --write",
     "lint-staged": "eslint --ignore-path .gitignore --fix",
