@@ -1,0 +1,14 @@
+# dependencies
+node_modules/
+npm-debug.log
+packages/*/lib
+.idea
+
+# production
+build
+dist
+
+# misc
+.DS_Store
+*.env
+*.env.me

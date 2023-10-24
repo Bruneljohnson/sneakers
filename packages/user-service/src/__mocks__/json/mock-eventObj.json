@@ -1,0 +1,34 @@
+
+{
+    "JSON NAME":"comment = API GATEWAY EVENT OBJECT - Starts from the next field (resource)",
+    "resource": "/",
+    "path": "/",
+    "httpMethod": "GET",
+    "requestContext": {
+        "resourcePath": "/",
+        "httpMethod": "GET",
+        "path": "/Prod/"
+    },
+    "headers": {
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "Host": "70ixmpl4fl.execute-api.us-east-2.amazonaws.com",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36",
+        "X-Amzn-Trace-Id": "Root=1-5e66d96f-7491f09xmpl79d18acf3d050",
+        "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InAwR1U2QzVMU19scm1kdDI1VGdVdSJ9.eyJpc3MiOiJodHRwczovL2Rldi1kZmNjZTZydnRuaHJyb3ZpLmV1LmF1dGgwLmNvbS8iLCJzdWIiOiJHSzNiNjlubzB0SldjUWZkVHo4eEM4QURsY1h3U0psMkBjbGllbnRzIiwiYXVkIjoiaHR0cHM6Ly9zbmVha2Vyei5jb20iLCJpYXQiOjE2OTQxMDk1OTgsImV4cCI6MTY5NDE5NTk5OCwiYXpwIjoiR0szYjY5bm8wdEpXY1FmZFR6OHhDOEFEbGNYd1NKbDIiLCJndHkiOiJjbGllbnQtY3JlZGVudGlhbHMifQ.lExP_R3VRcdHUUBGTpHVgCycRpUmojzQ3VkFOE_s4Yxvew6Y9vNBJJ0nFvq4tRkbnrzFKV1OaXdhQvRqHQNy6UyCKDTGCElYG_dlx841jNH4N2pVa_lk-EoHfXtW6KDL2kRMnoLAgKC9B5dzX1TijbC5PHGCSTr8VvJAzSF-H9Rgt9mtSmS20CN9auJ9FPmw-_hBKM_y4msGMcqLtYco9BPmxjfSkCE3thUzzDx3-uZSglTE7MVSnVB0s9yee7y0bh8pge0WVtl0fXajx3ekX3oDE6zTOeG7tYeQo4hYCzeYTnfnm4NaBAE1yE6jtctbxJdbDp0Uv33F4MR_75cTsQ"
+    },
+    "multiValueHeaders": {
+        "accept": [
+            "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+        ],
+        "accept-encoding": [
+            "gzip, deflate, br"
+        ]
+    },
+    "queryStringParameters": null,
+    "multiValueQueryStringParameters": null,
+    "pathParameters": null,
+    "stageVariables": null,
+    "body": null,
+    "isBase64Encoded": false
+}

@@ -1,0 +1,45 @@
+{
+  "name": "sneakerz",
+  "version": "1.0.0",
+  "description": "Sneakerz E-commerce FullStack Monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/frontend-tsreact"
+  ],
+  "nohoist": [
+    "common-lambda/**"
+  ],
+  "scripts": {
+    "prepare": "husky install",
+    "start": "echo 'Please start the services individually...' && exit 1",
+    "start-frontend": "npm run start -w @sneakerz/frontend-tsreact",
+    "start-user-service": "npm run start -w @sneakerz/user-service",
+    "start-product-service": "npm run start -w @sneakerz/product-service",
+    "start-transaction-service": "npm run start -w @sneakerz/transaction-service",
+    "start-live-chat-service": "npm run start -w @sneakerz/live-chat-service",
+    "test": "CI=true npm run test --workspaces --if-present",
+    "format": "prettier --ignore-path .gitignore --write .",
+    "format-staged": "prettier --ignore-path .gitignore --write",
+    "lint-staged": "eslint --ignore-path .gitignore --fix",
+    "lint": "eslint --ignore-path .gitignore .",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bruneljohnson/sneakers.git"
+  },
+  "author": "Brunel Johnson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bruneljohnson/sneakers/issues"
+  },
+  "homepage": "https://github.com/Bruneljohnson/sneakers#readme",
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
+    "prettier": "^3.0.3"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.9.0"
+  }
+}
